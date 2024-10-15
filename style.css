@@ -43,3 +43,190 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@import url('https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;1,400&family=Roboto:wght@400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: #a66;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Title Styling */
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 3rem; /* Larger title font */
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+/* Section Styling - Card Style */
+section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin-top: 20px;
+}
+
+/* Headings Styling */
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem; /* Increased size for section headings */
+  margin-bottom: 10px;
+  color: #a66;
+  letter-spacing: 1px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem; /* Slightly larger for readability */
+}
+
+/* Links Styling */
+a {
+  color: #a66;
+  text-decoration: none;
+  position: relative;
+  padding-right: 15px; /* Add space for the icon */
+}
+
+/* External Link Icon Styling */
+a[href^="http"]:after {
+  content: "";
+  background-image: url('external-link-52.png');
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+a:hover {
+  color: #4a2f2f; /* Slight color change on hover */
+  text-decoration: underline; /* Add underline on hover for emphasis */
+}
+
+/* Styling for "Top course choices" Section */
+aside h2 {
+  margin-bottom: 15px;
+}
+
+aside ul li a {
+  text-decoration: underline;
+  color: #a66;
+  transition: color 0.2s ease-in-out;
+}
+
+aside ul li a:hover {
+  color: #4a2f2f; /* Change color on hover */
+  text-decoration: none; /* Remove underline on hover for emphasis */
+}
+
+/* Styling for Main Content Section with Hover Effect */
+section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f9f4f0;
+}
+
+/* Hover Effect for "Top course choices" Section */
+aside {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+aside:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f9f4f0;
+}
+
+/* Lists Styling */
+ul, ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+ul li, ol li {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+/* Navigation Menu Styling - Button Style */
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  text-align: center;
+  border: 1px solid #a66;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav ul li a {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #a66;
+}
+
+/* Footer Text Styling */
+footer p {
+  margin: 0;
+  font-size: 1rem; /* Increased for visibility */
+  color: #f0f0f0;
+}
+
+/* Additional Card Styling for Aside Section */
+aside {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
